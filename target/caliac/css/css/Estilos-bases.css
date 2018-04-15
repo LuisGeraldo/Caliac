@@ -1,0 +1,265 @@
+@charset "US-ASCII";
+
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Kaushan+Script|Lobster|Open+Sans+Condensed:300|Roboto');
+
+.Contenedor{
+	margin: auto;
+	width: 98%;
+}
+
+#principal{
+	text-decoration: none;	
+}
+
+#Calculo{
+	color: white;
+}
+
+#CantidadMaterias input{
+	width: 63px;
+}
+
+#sInformacion{
+	display: none;
+}
+
+#Siguiente label{
+	border-radius: 10px;
+	padding: 3px;
+	background:  #00E920;
+	float: right;
+}
+
+#Siguiente label:hover{
+	background:  rgba(0, 233, 32, 0.5);
+}
+
+#Check{
+	display: none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#Principal{
+	color: #00E920;
+	font-size: 35px;
+	display: inline;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#C{
+	color: #07B5A5;
+	font-size: 70px;
+	display: inline;
+	font-family: 'Lobster', cursive;
+}
+
+li{
+	font-size: 17px;
+	color: #00E920;
+}
+
+#ComoUsar{
+	font-family: 'Kaushan Script', cursive;
+}
+
+#Materias p, #Error{
+	font-size: 13px;
+	color: red;
+}
+
+body h1{
+	margin-top: 40px;
+	display: block;
+}
+
+p, label{
+	font-weight: bold;
+	color: white;
+	font-family: 'Bad Script', cursive;
+}
+
+ul p{
+	margin: 0;
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 100;
+}
+
+header #Cerrar{
+	display: none;
+}
+
+header #x:hover{
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#IMenu{
+	font-size: 25px;
+	margin-top: 15px;
+	margin-left: 110px;
+	display: inline;
+}
+
+#x{
+	display: inline;
+	margin-top: 10px;
+	float: right;
+}
+
+#Calculo p{
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2{
+	color: white;
+	font-family: 'Kaushan Script', cursive;	
+	margin: 0;
+	font-size: 15px;
+}
+
+form fieldset{
+	border: none;
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 200px;
+	background: #07B5A5;
+}
+
+header img{
+	margin-right: 20px;
+	margin-top: 35px;
+	float: right;
+}
+
+header img:hover{
+	border-radius: 15px;
+	background:  rgba(7, 181, 165, 0.9);
+}
+
+header #check{
+	display: none;
+}
+
+form{
+	margin: 0 auto;
+	width: 250px;
+}
+
+form input{
+	margin: 0 auto;
+	border: none;
+	border-radius: 5px;
+	width: 80px;
+}
+
+form select{
+	border: none;
+	background: white;
+	border-radius: 10px;
+	width: 80px;
+}
+
+form input[type="submit"]{
+	display: block;
+	font-family: 
+	font-weight: bold;
+	background:  #00E920;
+	margin: 0 auto;
+	height: 30px;
+	width: 120px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Kaushan Script', cursive;	
+}
+
+nav p{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+nav{
+	margin-top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	display: none;
+	float: right;
+	transition: 0.5s;
+	border-radius: 25px;
+	width: 300px;
+	background:  rgba(7, 181, 165, 0.9);
+}
+
+nav a{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+nav a:hover{
+	border-radius: 50px;
+	background:  rgba(7, 181, 165, 0.6);	
+}
+
+
+#Indice{
+	margin: 0 auto;
+	color: white;
+}
+
+@media (min-width: 800px){
+	.Contenedor{
+	margin: auto;
+	width: 75%;
+}
+
+form fieldset{
+	width: 400px;
+}
+
+form{
+	margin: 0 auto;
+	width: 450px;
+}
+
+table{
+	margin: 0 auto;
+	width: 300px;
+}
+
+form input{
+	width: 100px;
+}
+
+#CantidadMaterias label{
+	padding-left: 80px;
+}
+
+#Siguiente{
+	margin-right: 30px;
+}
+
+#CantidadMaterias input{
+	margin: 0 auto;
+	width: 150px;
+}
+
+nav{
+	margin-top: 0;
+	left: 0%;
+	transform: translateX(-0%);
+	position: static;
+	float: right;
+	transition: 0.5s;
+}
+}
