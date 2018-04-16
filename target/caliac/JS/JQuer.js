@@ -42,13 +42,12 @@ $(document).ready(function(){
 	
 	}});
 	
-	var Error = function(){
-		alert("Prueba");
-	}
 	
-	
-	
-	
+	/*
+	 * Validar cantidad credito
+	 * 
+	 * */
+		
 });
 
 

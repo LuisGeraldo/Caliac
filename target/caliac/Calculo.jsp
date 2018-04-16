@@ -74,8 +74,20 @@
 					
     					out.print("<tr>");	
 						out.print("<td><h2>No. "+ i+"</h2>");
-						out.print("<td><input type='number' name='Credito"+i+"'"+" id='NoCredito"+i+"'"+" required />");	
+						//out.print("<td><input type='number' name='Credito"+i+"'"+" id='NoCredito"+i+"'"+" required />");
+						
+						out.print("<td><select name='Credito"+i+"'"+">"
+								
+						+ "<option value='1'>1</option>"
+						+ "<option value='2'>2</option>"
+						+ "<option value='3'>3</option>"
+						+ "<option value='4'>4</option>"
+						+ "<option value='5'>5</option>"
+						+ "<option value='6'>6</option>"
+						+ "</select>");
+						
 						out.print("<p id='Error'> </p>");
+						
 						out.print("<td><select name='Calificacion"+i+"'"+">"
 						
 						+ "<option value='4'>A</option>"
@@ -135,6 +147,7 @@
 		<script type="text/javascript">
 			swal("Oops!", "La cantidad de créditos excede el maximo!", "error");
 		</script>	
+		
 		<%
 		}else{
 			double IndiceRed = Math.round(Indice*Math.pow(10,2))/Math.pow(10,2);
